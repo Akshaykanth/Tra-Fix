@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_passenger_form2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.aditya.sample.passenger_form2">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_details"
+            android:ems="20"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:id="@+id/userDetails"
+            android:textSize="30sp"
+            tools:ignore="LabelFor,ObsoleteLayoutParam"
+            android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:text="@string/start_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sendButton"
+        android:onClick="okay"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/vehicle_details"
+        android:ems="20"
+        android:id="@+id/vehicleDetails"
+        android:textSize="30sp"
+        tools:ignore="LabelFor"
+        android:textColorLink="@android:color/background_dark"
+        android:textColor="@android:color/background_dark"
+        android:layout_below="@+id/contact"
+        android:layout_alignEnd="@+id/contact"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="13"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/email"
+        android:hint="@string/email"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/userDetails"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPhonetic"
+        android:ems="13"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/contact"
+        android:hint="@string/contact"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="13"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/mode"
+        android:hint="@string/mode"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/vehicleDetails"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="13"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/plateNo"
+        android:hint="@string/plate_no"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginTop="13dp"
+        android:layout_below="@+id/mode"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:inputType="textMultiLine"
+        android:ems="13"
+        android:layout_marginLeft="35dp"
+        android:id="@+id/otherDetails"
+        android:hint="@string/other_details"
+        android:lines="6"
+        tools:ignore="RtlHardcoded"
+        android:layout_below="@+id/plateNo"
+        android:layout_alignEnd="@+id/plateNo"
+        android:layout_marginTop="10dp" />
+
+
+</RelativeLayout>

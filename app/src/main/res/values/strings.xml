@@ -1,3 +1,34 @@
 <resources>
-    <string name="app_name">Sample</string>
+    <string name="app_name">tra-Fix</string>
+    <string name="passenger">PASSENGER</string>
+    <string name="driver">DRIVER</string>
+    <string name="start_check">START CHECK</string>
+    <string name="authority_name">Authority Name</string>
+    <string name="authrotiy_number">Authrotiy Number</string>
+    <string name="next">Next</string>
+    <string name="contact">Contact</string>
+    <string name="email">Email</string>
+    <string name="mode">Mode</string>
+    <string name="other_details">Other Details</string>
+    <string name="plate_no">Plate No.</string>
+    <string name="user_details">User Details</string>
+    <string name="vehicle_details">Vehicle Details</string>
+    <string name="send">SEND</string>
+    <string name="ok">OK</string>
+    <string name="service_provider_is_ola">Service provider is OLA</string>
+    <string name="service_provider_is_uber">Service provider is UBER</string>
+    <string name="txt">We will extract necessary information from the provider itself.But after the ride you can choose to send or not.</string>
+    <string name="txt2">You have requested for a check on rash driving for the ride.</string>
+    <string name="name">Name</string>
+    <string name="checking">Checking.....!</string>
+    <string name="rash">The User is found Rash Driving.</string>
+    <string name="complaint">Would You Like to complain to the concerned Authorities through an SMS ?</string>
+    <string name="no_i_dont">NO, I DONT</string>
+    <string name="yes_i_do">YES, I DO</string>
+    <string-array name="mode">
+        <item>Ola</item>
+        <item>Uber</item>
+        <item>Others(KSRTC or other Private)</item>
+    </string-array>
+
 </resources>
